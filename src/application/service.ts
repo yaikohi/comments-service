@@ -1,5 +1,5 @@
-import { ICommentEntity } from "../../persistence/comments/entity"
-import { commentRepository } from "../../persistence/comments/repository"
+import { ICommentEntity } from "../persistence/entity"
+import { commentRepository } from "../persistence/repository"
 
 interface ICommentService {
     getCommentsByPostId: (postId: string) => ICommentEntity[] | undefined

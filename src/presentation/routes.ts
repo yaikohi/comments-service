@@ -1,8 +1,8 @@
 import Elysia from "elysia";
 import { CommentBodySchema, CommentParamsSchema, CommentResponseSchema } from "./schemas";
-import { commentService } from "../application/comments/service";
+import { commentService } from "../application/service";
 
-export const commentsByPost = new Elysia()
+export const commentsByPostRouter = new Elysia()
     .model({
         commentresponse: CommentResponseSchema,
         commentparams: CommentParamsSchema,

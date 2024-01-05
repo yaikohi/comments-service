@@ -1,5 +1,5 @@
 import { ICommentEntity } from './entity';
-import { commentStorage } from '../../infrastructure/database';
+import { commentStorage } from '../infrastructure/database';
 
 interface ICommentRepository {
     saveComment: (comment: ICommentEntity) => void

@@ -1,3 +1,3 @@
-import { ICommentEntity } from "../persistence/comments/entity";
+import { ICommentEntity } from "../persistence/entity";
 
 export const commentStorage: ICommentEntity[] = []
